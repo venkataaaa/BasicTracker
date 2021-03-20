@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 15px 80px;
+}
+
+.sub-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.expense-details {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin: 15px 0;
+}
+
+.transactions {
+  border: 2px solid black;
+  height: 350px;
+  margin: 15px 0 30px;
+}
+
+.expense-details,
+.transactions {
+  width: 500px;
+  overflow: auto;
+}
+
+button {
+  padding: 1px 8px;
+}
+
+.transactions .sub-title {
+  margin: 20px;
+}
+
+.transaction-list {
+  margin: 20px;
+  font-weight: 500;
+}
